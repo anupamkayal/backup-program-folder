@@ -1,0 +1,26 @@
+from tkinter import  *
+from tkinter import  ttk
+root=Tk()
+root.geometry("700x430")
+name=Label(root,text="Name:",font="Helvetica  12    bold")
+name.place(x="14",y="24")
+var_input=StringVar()
+entrybox=Entry(root,width=24,textvariable=var_input,font="Helvetica 15 bold")
+entrybox.focus()
+entrybox.place(x="164",y="34")
+reversed_label=Label(root,text="Reversed\nName:",font="Helvetica   12    bold")
+reversed_label.place(x=15,y=130)
+var_output=StringVar()
+reversed_entry=Entry(root,textvariable=var_output,font="Helvetica  20  bold")
+reversed_entry.place(x="200",y="140")
+def func():
+    var=var_input.get()
+    reversed_var=(var[::-1])
+    var_output.set(reversed_var)
+    reversed_entry.update()
+submit=ttk.Button(root,width=12,text="submit",command=func)
+submit.place(x=97,y=312)
+exit_button=ttk.Button(root,width=9,text="Exit",command=quit)
+exit_button.place(x=387,y=313)
+
+root.mainloop()

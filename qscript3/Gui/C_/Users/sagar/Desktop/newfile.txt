@@ -1,0 +1,12 @@
+
+Anupam Kayal,8,8,2022,450,1
+Anupam Kayal,8,6,2022,600,1
+Anupam Kayal,7,5,2022,600,1
+anupam Kayal,5,8,2022,700,UnPaid
+ajoy,5,5,2022,600,UnPaid
+anuoa,6,5,2022,566,UnPaid
+dujd,7,5,2020,677,Paid
+anupam ,5,6,2025,600,Paid
+sonai,5,6,2020,600,Paid
+hhjj,6,5,2024,889,Paid
+hbnn,1,1,2020,878,Paid
